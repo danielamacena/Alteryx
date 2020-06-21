@@ -1,0 +1,93 @@
+DATA-------------------------------------------------------Data
+This person was born on 26/07/1984
+This person was born on 12/05/2004 which was a Tuesday
+
+(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19\d\d|20\d\d)
+
+
+WORDS IN QUOTES--------------------------------------------------------------------
+Words between in quotes
+"Peter Werth""Consultant""Engineering"
+"(.*?)"
+
+
+HASHTAGS-----------------------------------------Get the hashtags
+
+RT @HipHopinfosFR: Plutôt jersey NY x NAS, Chicago x Kanye West, Toronto x Drake, Detroit x Eminem ? https://t.co/A2v2wPM5f0
+RT @highsnobiety: Take a tour of @kanyewest's #Pablo pop-up in Berlin:
+
+\B#\w\w+
+
+
+POSTAL CODE ------------------------------------Postal Code
+
+FROM this CT2 7PP  TO that CT2
+(.*?)\s
+
+EMAIL ----------------------------------Get the domain from the email
+FROM atomkiewicz@hotmail.com   TO hotmail.com
+@(.*)$
+
+PHONE-----------------------------------explit out the phone
+
+FROM(01599)245408   TO  245408
+\<(\d*)\W*(\d*)
+
+
+NOMES ATE O DIGITO-----------------------------------
+Aleshia Tomkiewicz 14 Taylor St
+(^\D+)
+se quiser deletar o espaco (^\D+)\s
+
+
+ELIMINANDO ESPACOS NO FINAL --------------------------------
+Margarett Bairo   
+\s+$
+
+
+ELIMINANDO ESPACO DO INICIO---------------------------------
+  Bettina Kham
+^\s+
+
+
+ELIMINANDO ESPACO DO INICIO E DO FINAL-------------------------------------
+
+^\s+|\s+$
+
+
+
+
+
+
+if [Value]== 73 then
+    52
+elseif [Value]== 76 then
+    55
+elseif [Value]== 99 then
+    78
+else
+   [Value]
+endif
+
+!Contains([Description],"hoban") AND
+!Contains([Description],"mia") AND
+[Discount] != "21"
+
+
+
+!Contains([Description],"hoban") AND
+!Contains([Description],"mia") AND
+[Discount] != "21" AND !Contains([Description],"laurencie")
+AND !Contains([Description],"Cecere")
+AND !Contains([Description],"uber")
+AND !Contains([Description],"xx4795")
+AND !Contains([Description],"WORLD OF BOOKS")
+AND !Contains([Description],"Murdoch")
+AND !Contains([Description],"NIB")
+AND !Contains([Description],"Emma Martin")
+AND !Contains([Description],"Budge")
+
+
+
+
+
