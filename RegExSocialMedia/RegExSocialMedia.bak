@@ -49,7 +49,7 @@
         <Configuration>
           <Text><![CDATA[A company would like to capture how many hash tags are captured in social media sources. 
 
-Goal:  build a workflow to determine what hashtags are referenced in each string, and summarize the number of times each hashtag is referenced.  You need to represent this detail in a cross tab view grouped by hash tag. 
+Your goal is to build a workflow to determine what hashtags are referenced in each string, and summarize the number of times each hashtag is referenced.  You need to represent this detail in a cross tab view grouped by hash tag. 
 ]]></Text>
           <Font name="Trebuchet MS" size="9" style="0" />
           <TextColor name="Black" />
@@ -435,6 +435,46 @@ Preparing Data using RegEx</Text>
         </Annotation>
       </Properties>
     </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="198" y="126" width="228" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Time to Complete:  1-3 hours</Text>
+          <Font name="Trebuchet MS" size="12" style="0" />
+          <TextColor r="0" g="144" b="200" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="150" width="732" height="36" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use of this Alteryx asset is for educational purposes only and bound by the conditions set forth on www.Alteryx.com/terms-and-conditions. Alteryx Information may not be reproduced, transmitted or distributed without Alteryx, Inc.'s permission.</Text>
+          <Font name="Trebuchet MS" size="7.8" style="3" />
+          <TextColor r="0" g="144" b="200" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
         <Position x="150" y="390" />
@@ -728,6 +768,106 @@ els...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
     </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="630" y="180" width="446" height="139" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Hints</Caption>
+          <Style TextColor="#2f4f4f" FillColor="#ffffff" BorderColor="#2f4f4f" Transparency="1" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="655" y="229" width="96" height="65.00003" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Find all the records that contain the # symbol.</Text>
+              <Font name="Microsoft Sans Serif" size="8.25" style="0" />
+              <TextColor name="DarkSlateGray" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="763" y="229" width="87" height="65.00003" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Use the RegEx tool to extract the word after each hashtag.</Text>
+              <Font name="Microsoft Sans Serif" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor r="111" g="111" b="111" />
+              <Shape shape="0" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="859" y="229" width="84" height="65.00003" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>The Unique tool is useful when duplicate records are present.</Text>
+              <Font name="Microsoft Sans Serif" size="8.25" style="0" />
+              <TextColor name="DarkSlateGray" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="955" y="229" width="96" height="65.00003" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>The Dynamic Rename tool will help in building the cross tab view.</Text>
+              <Font name="Microsoft Sans Serif" size="8.25" style="0" />
+              <TextColor name="White" />
+              <FillColor r="111" g="111" b="111" />
+              <Shape shape="0" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -801,7 +941,7 @@ els...</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>RegExSocialMedia</Name>
+      <Name>Intermediate_RegExSocialMedia</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
