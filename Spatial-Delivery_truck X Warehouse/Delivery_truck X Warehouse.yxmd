@@ -97,7 +97,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_9948_f89a90c752c6455babf6b9e39cfe18e6_\Engine_24592_7afd5a4874a140e6b59e7b1c70865284_.yxdb</TempFile>
+          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_25404_f617a766113f4a0599ee3be02ee9e74c_\Engine_24592_62ac2a35355f43ddb7e94a1a17325d41_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -128,7 +128,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_9948_f89a90c752c6455babf6b9e39cfe18e6_\Engine_24592_28869a0025a741a0b7821fd8bd74e2ad_.yxdb</TempFile>
+          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_25404_f617a766113f4a0599ee3be02ee9e74c_\Engine_24592_2014a1d95e484ed3a134b807b88349fd_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -192,7 +192,7 @@
         <Configuration>
           <OutputDistance value="True" />
           <ReturnNearest value="False" />
-          <DistToInsideEdge value="False" />
+          <DistToInsideEdge value="True" />
           <OutputDriveTimeAndDistance value="False" />
           <SpatialObjSource>Start_SpatialObj</SpatialObjSource>
           <SpatialObjDest>Warehouse Trade Areas</SpatialObjDest>
@@ -219,7 +219,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_9948_f89a90c752c6455babf6b9e39cfe18e6_\Engine_24592_6d43380754234f7ca789df0b73cbebbe_.yxdb</TempFile>
+          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_25404_f617a766113f4a0599ee3be02ee9e74c_\Engine_24592_f50c67744c69470294a6e484d0bcc028_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
