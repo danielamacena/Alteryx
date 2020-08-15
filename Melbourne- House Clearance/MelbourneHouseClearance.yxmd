@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="126" y="66" />
+        <Position x="54" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -25,9 +25,6 @@
           <DefaultAnnotationText>MELBOURNE_HOUSE_PRICES_LESS.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Suburb" size="254" source="File: C:\Users\Dani\Documents\GitHub\Alteryx\Melbourne- House Clearance - K-Means Clustering\MELBOURNE_HOUSE_PRICES_LESS.csv" type="V_String" />
@@ -50,7 +47,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="258" y="66" />
+        <Position x="186" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -75,7 +72,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings>
-        <Position x="414" y="258" />
+        <Position x="342" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -106,9 +103,6 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="grp" size="1073741823" source="R-DATA:" type="V_WString" />
@@ -127,7 +121,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="234" y="6" width="100" height="40" />
+        <Position x="162" y="54" width="100" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -147,7 +141,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="378" y="6" width="156" height="40" />
+        <Position x="306" y="54" width="156" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -167,7 +161,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="414" y="210" width="100" height="40" />
+        <Position x="342" y="258" width="100" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -187,7 +181,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="546" y="234" />
+        <Position x="474" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -210,7 +204,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="546" y="306" />
+        <Position x="474" y="354" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -226,7 +220,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings>
-        <Position x="426" y="462" />
+        <Position x="354" y="510" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -237,9 +231,6 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Suburb" size="1073741823" source="R-DATA:" type="V_WString" />
@@ -263,7 +254,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="558" y="462" />
+        <Position x="486" y="510" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -286,11 +277,11 @@
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="558" y="534" />
+        <Position x="486" y="582" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File FileFormat="64" MaxRecords="">C:\Users\Dani\Documents\GitHub\Alteryx\Melbourne- House Clearance - K-Means Clustering\Melbourne_Houses.hyper</File>
+          <File FileFormat="64" MaxRecords="">C:\Users\Dani\Documents\GitHub\Alteryx\Melbourne- House Clearance\Melbourne_Houses.hyper</File>
           <Passwords />
           <FormatSpecificOptions>
             <OutputOption>Create</OutputOption>
@@ -310,7 +301,7 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="450" y="390" width="100" height="40" />
+        <Position x="378" y="438" width="100" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -330,7 +321,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="618" y="546" width="100" height="40" />
+        <Position x="546" y="594" width="100" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -350,7 +341,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="389" y="53" width="152.0632" height="24" />
+        <Position x="317" y="101" width="152.0632" height="24" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -368,7 +359,7 @@
       <ChildNodes>
         <Node ToolID="4">
           <GuiSettings>
-            <Position x="414" y="102" />
+            <Position x="342" y="150" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -397,15 +388,12 @@
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
-            <Dependencies>
-              <Implicit />
-            </Dependencies>
           </Properties>
           <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
         </Node>
         <Node ToolID="6">
           <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-            <Position x="486" y="102" />
+            <Position x="414" y="150" />
           </GuiSettings>
           <Properties>
             <Configuration>
