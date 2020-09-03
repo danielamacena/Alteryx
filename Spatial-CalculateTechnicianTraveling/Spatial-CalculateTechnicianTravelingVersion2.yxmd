@@ -1,0 +1,539 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="59" y="258" width="216" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="458" y="258" width="216" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output</Text>
+          <Font name="Lato" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="586" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_4868_b71694f59e564fc29976e282cd1e45aa_\Engine_9772_cdce5132e11f40a4bd9d47a7ffa3e85c_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="490" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="Sum_DistanceMiles" />
+          </Fields>
+          <Data>
+            <r>
+              <c>01-01-2014</c>
+              <c>4.1003917220204</c>
+            </r>
+            <r>
+              <c>01-02-2014</c>
+              <c>4.4757257691113</c>
+            </r>
+            <r>
+              <c>01-03-2014</c>
+              <c>3.6385663544414</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>If Straight-Line Distance</AnnotationText>
+          <DefaultAnnotationText>If Straight-Line Distance</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="490" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Date" />
+            <Field name="Sum_DriveDistanceMiles" />
+          </Fields>
+          <Data>
+            <r>
+              <c>01-01-2014</c>
+              <c>6.35</c>
+            </r>
+            <r>
+              <c>01-02-2014</c>
+              <c>7.39</c>
+            </r>
+            <r>
+              <c>01-03-2014</c>
+              <c>6.18</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>If Drive-Distance</AnnotationText>
+          <DefaultAnnotationText>If Drive-Distance</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="586" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_4868_b71694f59e564fc29976e282cd1e45aa_\Engine_9772_e31189b37cf541eb92b8007d125aec88_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Dani\AppData\Local\Temp\Engine_4868_b71694f59e564fc29976e282cd1e45aa_\Engine_9772_9db8d1c7764e463fb1169613ec9bb4b4_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>Latest:CloudMade</BaseMap>
+                </Map>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="90" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="9" />
+          <Fields>
+            <Field name="Site" />
+            <Field name="SpatialObj" />
+            <Field name="Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Hotel</c>
+              <c>{ "type": "Point", "coordinates": [ -96.882935, 32.838058 ] }</c>
+              <c>01-01-2014</c>
+            </r>
+            <r>
+              <c>A1</c>
+              <c>{ "type": "Point", "coordinates": [ -96.859589, 32.853057 ] }</c>
+              <c>01-01-2014</c>
+            </r>
+            <r>
+              <c>Hotel</c>
+              <c>{ "type": "Point", "coordinates": [ -96.818390, 32.850750 ] }</c>
+              <c>01-01-2014</c>
+            </r>
+            <r>
+              <c>Hotel</c>
+              <c>{ "type": "Point", "coordinates": [ -96.807404, 32.825365 ] }</c>
+              <c>01-02-2014</c>
+            </r>
+            <r>
+              <c>A2</c>
+              <c>{ "type": "Point", "coordinates": [ -96.773071, 32.851903 ] }</c>
+              <c>01-02-2014</c>
+            </r>
+            <r>
+              <c>Hotel</c>
+              <c>{ "type": "Point", "coordinates": [ -96.748352, 32.836905 ] }</c>
+              <c>01-02-2014</c>
+            </r>
+            <r>
+              <c>Hotel</c>
+              <c>{ "type": "Point", "coordinates": [ -96.910400, 32.767646 ] }</c>
+              <c>01-03-2014</c>
+            </r>
+            <r>
+              <c>A3</c>
+              <c>{ "type": "Point", "coordinates": [ -96.881561, 32.773419 ] }</c>
+              <c>01-03-2014</c>
+            </r>
+            <r>
+              <c>Hotel</c>
+              <c>{ "type": "Point", "coordinates": [ -96.891174, 32.746858 ] }</c>
+              <c>01-03-2014</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="78" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>Path</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row-1:Path]+1</Expression>
+          <GroupByFields>
+            <Field field="Date" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Assign Path order 1, 2, or 3</AnnotationText>
+          <DefaultAnnotationText>[Row-1:Path]+1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="122">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="198" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Date" />
+          </GroupFields>
+          <HeaderField field="Path" />
+          <DataField field="SpatialObj" />
+          <Methods>
+            <Method method="First" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Cross tab by Date</AnnotationText>
+          <DefaultAnnotationText>Cross tab by Date</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Date" size="10" source="CrossTab:Group:First:" type="String" />
+            <Field name="1" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="2" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="3" size="2147483647" source="TextInput:" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Date" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="123">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Distance.Distance">
+        <Position x="318" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OutputDistance value="True" />
+          <ReturnNearest value="False" />
+          <DistToInsideEdge value="False" />
+          <OutputDriveTimeAndDistance value="False" />
+          <SpatialObjSource>1</SpatialObjSource>
+          <SpatialObjDest>2</SpatialObjDest>
+          <DriveTimeDataSet>Latest</DriveTimeDataSet>
+          <AllowReverseRoute value="True" />
+          <MaxDriveTime value="30" />
+          <DriveDistanceOnly value="False" />
+          <OutputCardinalDirection value="False" />
+          <OutputDirectionDegrees value="False" />
+          <IsMetric value="False" />
+          <OutputUnits>Miles</OutputUnits>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Distance Hotel to Worksite</AnnotationText>
+          <DefaultAnnotationText>Distance Hotel to Worksite</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxDistance" />
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Distance.Distance">
+        <Position x="438" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OutputDistance value="True" />
+          <ReturnNearest value="False" />
+          <DistToInsideEdge value="False" />
+          <OutputDriveTimeAndDistance value="False" />
+          <SpatialObjSource>2</SpatialObjSource>
+          <SpatialObjDest>3</SpatialObjDest>
+          <DriveTimeDataSet>Latest</DriveTimeDataSet>
+          <AllowReverseRoute value="True" />
+          <MaxDriveTime value="30" />
+          <DriveDistanceOnly value="False" />
+          <OutputCardinalDirection value="False" />
+          <OutputDirectionDegrees value="False" />
+          <IsMetric value="False" />
+          <OutputUnits>Miles</OutputUnits>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Distance Worksite to Hotel</AnnotationText>
+          <DefaultAnnotationText>Distance Worksite to Hotel</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxDistance" />
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="558" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[DistanceMiles]+[DistanceMiles2]" field="Sum_DistanceMiles" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sum_DistanceMiles</AnnotationText>
+          <DefaultAnnotationText><![CDATA[Sum_DistanceMiles = [DistanceMiles]+[DistanceMiles2]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="666" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="1" selected="False" />
+            <SelectField field="2" selected="False" />
+            <SelectField field="3" selected="False" />
+            <SelectField field="DistanceMiles" selected="False" />
+            <SelectField field="DistanceMiles2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Remove unwanted fields</AnnotationText>
+          <DefaultAnnotationText>Remove unwanted fields</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="30" y="54" width="612" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Use Case:  in order to audit their employee expense reports, a service company would like to calculate how far (in miles) their technician is traveling from their hotels, to the worksite, then to their destination hotel on a daily basis.
+
+The Data:  The source is collected in a way that record 1 contains the spatial object for the beginning hotel for day 1, record 2 is the spatial object for the worksite for day 1, and record 3 is the spatial object for the ending hotel for day 1.  This pattern repeats for three successive days.
+
+Find the distance on a daily basis the technician is either driving or straight line distance if you don’t have the spatial data available.
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="7.8" style="0" />
+          <TextColor name="Gray" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="115" Connection="Output" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="121" Connection="Output" />
+      <Destination ToolID="122" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="122" Connection="Output" />
+      <Destination ToolID="123" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="123" Connection="Output" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="Output" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="125" Connection="Output" />
+      <Destination ToolID="126" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Spatial-CalculateTechnicianTravelingVersion2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
